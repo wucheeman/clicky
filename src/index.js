@@ -24,6 +24,8 @@ class Board extends React.Component {
 
   //method passed to Square as callback for handling clicks
   handleClick(i) {
+    // generates copy of board state
+    // TDOD: decide if this is really needed
     const squares = this.state.squares.slice();
     // sets the display value of squares[i];
     squares[i] = 'X';	
