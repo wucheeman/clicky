@@ -1,4 +1,4 @@
-TEST TEMPLATE - PROJECT NAME
+CLICKY TEST TEMPLATE
 
 d = deferred
 e = met by enhancement
@@ -9,9 +9,20 @@ w = waiting for further work
 
 Make sure you're working in a copy of this for a homework assignment! 
 
-Requirements
-============
-Fill in from requirements
+Static Requirements
+===================
+[] App is a React app
+[] Renders different images to the screen
+
+Functional Requirements
+=======================
+[] Each image listens for click events
+[] Application tracks user score
+   () score increments +1 the first time the image is clicked during the game
+   () score resets to 0 if image clicked thereafter during game
+[] After each click, images shuffle in random order
+[] Game restarts (implication, images shuffle) after score resets to 0
+[] No requirement for behavior after user reaches max score possible
 
 Bonus
 =====
@@ -19,8 +30,8 @@ Fill in from requirements.
 
 Functionality
 =============
-[] Game initializes globals correctly
-[] Game reinitializes globals correctly
+[] Game initializes correctly
+[] Game reinitializes correctly
 
 Display
 =======
