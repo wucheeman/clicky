@@ -12,7 +12,8 @@ Make sure you're working in a copy of this for a homework assignment!
 Static Requirements
 ===================
 [] App is a React app
-[] Renders different images to the screen
+[] Renders different images to the screen in a 4 x 4 grid
+
 
 Functional Requirements
 =======================
