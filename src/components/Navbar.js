@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-success">
     <a className="navbar-brand" href="#">
-      Clicky - a game of clicks and memory
+      Remember the Union - a game of clicks and memory
     </a>
     <button
       className="navbar-toggler"

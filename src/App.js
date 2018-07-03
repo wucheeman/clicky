@@ -13,7 +13,7 @@ const App = () => (
     <br />
     <Board />
     <br />
-    <img src={require('./apple.svg')} alt='apple' />
+    {/* <img src={require('./apple.svg')} alt='apple' /> */}
     {/* <img src={require('/images/image-name.png')} /> */}
     {/* <Jumbotron /> */}
     {/* <Card /> */}
