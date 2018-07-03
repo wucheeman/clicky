@@ -1,6 +1,8 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  background-image: url(https://www.westpoint.edu/history/SiteAssets/SitePages/American%20Civil%20War/ACW01.gif);
+  background-repeat: no-repeat;
 }
 
 ol, ul {
@@ -24,12 +26,14 @@ ol, ul {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  /* was 34 px */
+  height: 128px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  /* was 34 px */
+  width: 128px;
 }
 
 .square:focus {

@@ -1,7 +1,25 @@
+
+  import React from "react";
+  import ReactDOM from "react-dom";
+  import App from "./App";
+
+  ReactDOM.render(<App />, document.getElementById("root"));
+
+
+/* From 'game tutorial
+///////////////////////////////////////////////
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+
+Index.js code
+
+  import React from "react";
+  import ReactDOM from "react-dom";
+  import App from "./App";
+
+  ReactDOM.render(<App />, document.getElementById("root"));
 function Square (props) {
   return (
     <button
@@ -46,7 +64,10 @@ class Board extends React.Component {
 
     return (
       <div>
-        {/* <div className="status">{status}</div> */}
+        {/* <div className="status">{status}</div> */
+      // THIS CURLY BRACKET NEEDS TO GO UP to PREVIOUS LINE WHEN UNCOMMENTED  -->  }
+
+/*
         <div className="board-row">
           {this.renderSquare(0)}
           {this.renderSquare(1)}
@@ -84,8 +105,13 @@ class Game extends React.Component {
           <Board />
         </div>
         <div className="game-info">
-          <div>{/* status */}</div>
-          <ol>{/* TODO */}</ol>
+          <div>{/* status */
+          // THIS CURLY BRACKET AND DIV NEED TO GO UP to PREVIOUS LINE WHEN UNCOMMENTED  -->  }}</div>
+/*
+          <ol>{/* TODO */
+          // THIS CURLY BRACKET AND ol NEED TO GO UP to PREVIOUS LINE WHEN UNCOMMENTED  -->  }}</div>}</ol>
+
+/*
         </div>
       </div>
     );
@@ -101,4 +127,4 @@ ReactDOM.render(
 
 
 
-
+*/
