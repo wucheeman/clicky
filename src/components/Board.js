@@ -11,6 +11,7 @@ function Square (props) {
       // causes square to display 'x'
       onClick={() => props.onClick()}
     >
+      <img alt={props.alt} src={props.src} />
       {props.value}
     </button>
   );
@@ -30,16 +31,23 @@ class Board extends React.Component {
     // TDOD: decide if this is really needed
     const squares = this.state.squares.slice();
     // sets the display value of squares[i];
+    // with image, still records click; no longer displays 'x'
     squares[i] = 'X';	
     this.setState({squares: squares});
   }
 
   renderSquare(i) {
     return (
+      // <Square
+      //   value={this.state.squares[i]} 
+      //   onClick={() => this.handleClick(i)}
+      // />
       <Square
-        value={this.state.squares[i]} 
-        onClick={() => this.handleClick(i)}
-      />
+      value={this.state.squares[i]} 
+      src={require('../apple.svg')}
+      alt='apple'
+      onClick={() => this.handleClick(i)}
+    />
     );
   }
 
